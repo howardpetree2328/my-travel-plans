@@ -28,6 +28,10 @@ body {
     justify-content: center;
 }
 
+.destination:hover h1 {
+    transform: rotate(0deg);
+}
+
 .destination:hover h2 {
     transform: rotate(0deg);
 }
