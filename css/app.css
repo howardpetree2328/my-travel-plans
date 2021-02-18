@@ -10,7 +10,8 @@ html {
 }
 
 body {
-    display: flex;
+    background-color:#868A08;
+	display: flex;
     margin: 0;
     height: 100%;
 }
@@ -40,9 +41,20 @@ body {
     text-align: center;
 }
 
+#florida {
+    background-color: #0000FF;
+}
+
+#paris {
+    background-color: #FF0000;
+}
+
+#hawaii {
+    background-color: #298A08;
+}
 h1 {
     margin: 0;
-    transform: rotate(-180deg);
+    transform: rotate(45deg);
     text-shadow: 0 0 5px #03a9f4;
 }
 
@@ -50,12 +62,4 @@ h2 {
     margin: 0;
     transform: rotate(-45deg);
     text-shadow: 0 0 5px #01579b;
-}
-
-florida {
-    background-color: #03a9f4;
-}
-
-paris {
-    background-color: #FF0000;
 }
